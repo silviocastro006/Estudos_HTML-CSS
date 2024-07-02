@@ -1,2 +1,2 @@
 # Estudos_HTML-CSS
- Mini projetos durante cursos de HTML
+Inicialmente estou inserindo os exercícios e micro-projetos dos 5 módulos de HTML5 & CSS3 do Curso em Vídeo. 
