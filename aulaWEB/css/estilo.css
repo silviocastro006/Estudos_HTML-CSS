@@ -1,0 +1,35 @@
+@charset 'UTF-8';
+
+img{
+    width: 500px;
+    margin: auto;
+    border-radius: 60px;
+    box-shadow: 10 10 10 black;
+    
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 25px;
+    background-color: rgb(236, 189, 197);
+}
+
+div{
+    font-size: 25px;
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    height:100px;
+    text-align: center;
+    box-shadow: 5 5 15 black;
+}
+
+body{
+    background-color: rgb(241, 213, 218);
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
