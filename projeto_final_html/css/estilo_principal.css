@@ -1,0 +1,91 @@
+@charset 'utf-8';
+
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+aside > p{
+    margin-top: 80px;
+    text-align: justify;
+    max-width: 550px;
+    line-height: 40px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right:auto;
+}
+
+#imagem_capa {
+    position: relative;
+    display: inline-block;
+}
+
+#imagem_capa img {
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    transition: opacity 0.3s ease-in-out;
+    margin-right: 100px;
+}
+
+#imagem_capa:hover img {
+    opacity: 0; /* Esconde a imagem original */
+}
+
+#imagem_capa::after {
+    margin-top: 50px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 400px;
+    background-image: url("/imagens/rodfar.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#imagem_capa:hover::after {
+    opacity: 1; /* Exibe a nova imagem */
+}
+
+h2{
+    margin-top: 50px;
+    font-size: 50px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+span{
+    color: #F9B1B1;
+}
+
+ul#nav > a{
+    color: white;
+}
+
+ul#nav > a:hover{
+    color: #6b2020;
+    transition: 0.3s all;
+    border: 2px solid #F9B1B1;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+}

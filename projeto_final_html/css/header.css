@@ -1,0 +1,60 @@
+header#header_principal {
+    width: 100%;
+    position: relative;
+    background-color: rgb(24, 19, 19);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: poppinsregular, sans-serif;
+    padding: 10px 20px;
+}
+
+#brain {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 80px;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#Titulo_prin {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+ul#nav {
+    padding: 0;
+    margin-right: 120px;
+    display: flex;
+    gap: 20px;
+}
+
+ul#nav > a > li {
+    display: inline-block;
+    margin: 0;
+}
+
+ul#nav > a {
+    color: white;
+    text-decoration: none;
+}
+
+ul#nav > a:hover {
+    color: #6b2020;
+    transition: 0.3s all;
+    border: 2px solid #F9B1B1;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+header#header_principal {
+    height: auto; /* Ou defina uma altura fixa, se necessário */
+}
